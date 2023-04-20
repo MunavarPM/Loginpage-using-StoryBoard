@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Super Moon Valley IPhone Wallpaper HD - IPhone Wallpapers" translatesAutoresizingMaskIntoConstraints="NO" id="Dqe-vg-HJh">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOG IN PAGE..!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7A-77-dWp">
+                                <rect key="frame" x="74" y="405" width="245" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <color key="textColor" red="0.70747860526596651" green="0.81918015037356506" blue="0.97289787371134018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-  MOON'S WALK." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2T-2N-Iwd">
+                                <rect key="frame" x="132.66666666666666" y="477" width="127.99999999999997" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <color key="textColor" red="0.54085681615605519" green="0.64739200230387972" blue="0.8226817646591934" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Dqe-vg-HJh" secondAttribute="bottom" id="HWz-CI-dob"/>
+                            <constraint firstItem="Dqe-vg-HJh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Kwb-XD-UhU"/>
+                            <constraint firstItem="Dqe-vg-HJh" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="L6x-8Y-D1u"/>
+                            <constraint firstItem="b2T-2N-Iwd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jIV-GS-rie"/>
+                            <constraint firstItem="e7A-77-dWp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="keq-qZ-1YC"/>
+                            <constraint firstItem="Dqe-vg-HJh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="s8G-iO-ywv"/>
+                            <constraint firstItem="e7A-77-dWp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vW8-qT-nOT"/>
+                            <constraint firstItem="b2T-2N-Iwd" firstAttribute="top" secondItem="e7A-77-dWp" secondAttribute="bottom" constant="30" id="wUP-39-LGp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Super Moon Valley IPhone Wallpaper HD - IPhone Wallpapers" width="844" height="1500"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
